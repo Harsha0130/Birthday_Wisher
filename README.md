@@ -23,6 +23,11 @@ This Python script checks a CSV file (`birthdays.csv`) for birthdays matching th
 - Update `email` and `password` variables in the script with your Gmail credentials.
 - Customize email templates in the `Letter_templates` directory (`letter_1.txt`, `letter_2.txt`, `letter_3.txt`).
 
+## Timezone update 
+- As per my location this is what i added in my code
+- tz_NY = pytz.timezone('Asia/Kolkata')
+- today = dt.datetime.now(tz_NY)
+
 # Automation on PythonAnywhere
 
 1. **Upload files to PythonAnywhere:**
