@@ -23,7 +23,7 @@ This Python script checks a CSV file (`birthdays.csv`) for birthdays matching th
 - Update `email` and `password` variables in the script with your Gmail credentials.
 - Customize email templates in the `Letter_templates` directory (`letter_1.txt`, `letter_2.txt`, `letter_3.txt`).
 
-## Automation on PythonAnywhere
+# Automation on PythonAnywhere
 
 1. **Upload files to PythonAnywhere:**
    - Upload your script (`main_code.py`) and `birthdays.csv` to the PythonAnywhere "Files" section.
